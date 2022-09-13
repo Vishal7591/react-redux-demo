@@ -1,10 +1,11 @@
+import * as types from "./actionTypes";
 export const increment = () => {
   this.props.dispatch({
-    type: "INCREMENT"
+    type: types.INCREMENT,
   });
 };
 export const decrement = () => {
   this.props.dispatch({
-    type: "DECREMENT"
+    type: types.DECREMENT,
   });
 };
